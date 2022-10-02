@@ -9,6 +9,7 @@
 .companyImg {
   border-radius: 0.5rem;
   width: 5rem;
+  height: 5rem;
   border: 2px solid var(--color-grey-light-3);
 }
 

@@ -7,12 +7,8 @@ function SidebarList() {
     <ul className={styles.sidebarList}>
       <li className={styles.sidebarListItem}>
         <NavLink
-          to="/me"
-          className={({ isActive }) =>
-            `${styles.sidebarListLink} ${
-              isActive ? styles.sidebarListLink__active : ""
-            }`
-          }
+          to="#"
+          className={({ isActive }) => `${styles.sidebarListLink}`}
         >
           <span className={styles.sidebarListIcon}>
             <i className="fas fa-user-graduate"></i>
@@ -22,12 +18,8 @@ function SidebarList() {
       </li>
       <li className={styles.sidebarListItem}>
         <NavLink
-          to="/classrooms"
-          className={({ isActive }) =>
-            `${styles.sidebarListLink} ${
-              isActive ? styles.sidebarListLink__active : ""
-            }`
-          }
+          to="/"
+          className={({ isActive }) => `${styles.sidebarListLink}`}
         >
           <span className={styles.sidebarListIcon}>
             <i className="fas fa-home" />
@@ -68,7 +60,7 @@ function SidebarList() {
       </li>
       <li className={styles.sidebarListItem}>
         <a
-          href="https://github.com/namansingh73/chemClass"
+          href="https://github.com/namansingh73/job-portal"
           className={styles.sidebarListLink}
           target="_blank"
           rel="noreferrer"

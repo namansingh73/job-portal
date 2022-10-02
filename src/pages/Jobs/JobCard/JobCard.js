@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import styles from "./JobCard.module.css";
-import Logo from "./companyIcon.jpeg";
 import Button from "../../../utils/Button/Button";
 
 const JobCard = (props) => {
   const {
     id,
+    companyImage,
     companyName,
     companyMoto,
     companySize,
@@ -20,7 +20,7 @@ const JobCard = (props) => {
   return (
     <div className={styles.outerContainer}>
       <div className={styles.companyInfo}>
-        <img src={Logo} alt="..." className={styles.companyImg} />
+        <img src={companyImage} alt="..." className={styles.companyImg} />
         <div className={styles.nameMottoCnt}>
           <span className={styles.companyName}>{companyName}</span>
           <span className={styles.companyMoto}>{companyMoto}</span>
