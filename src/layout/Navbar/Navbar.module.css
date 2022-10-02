@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.outerNavContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--color-grey-light-1);
+  width: 100%;
+  z-index: 50;
+  height: 12rem;
+}

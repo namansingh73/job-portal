@@ -1,0 +1,10 @@
+.sidebar {
+  padding: 3vw 1.5rem;
+  width: 10rem;
+  position: fixed;
+  left: 0;
+  top: 8.5rem;
+  height: calc(100% - 8.5rem);
+
+  /* background-color: var(--color-grey-light-1); */
+}

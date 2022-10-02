@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "companyName": "Aviate",
+    "companyMoto": "Customer ka chutiya bnao, paise kamao",
+    "companySize": "1 - 10 Employees",
+    "postedDate": "1 Month",
+    "role": "Associate Engineer",
+    "location": "Remote",
+    "salary": "$69.69 - $169.69",
+    "saved": false,
+    "applied": false,
+    "appliedDate": "Yesterday",
+    "status": "Pending"
+  },
+  {
+    "id": "2",
+    "companyName": "Aviate",
+    "companyMoto": "Customer ka chutiya bnao, paise kamao",
+    "companySize": "1 - 10 Employees",
+    "postedDate": "1 Month",
+    "role": "Software Developer Engineer",
+    "location": "Remote",
+    "salary": "$69.69 - $269.69",
+    "saved": false,
+    "applied": false,
+    "appliedDate": "Yesterday",
+    "status": "Accepted"
+  },
+  {
+    "id": "3",
+    "companyName": "Aviate",
+    "companyMoto": "Customer ka chutiya bnao, paise kamao",
+    "companySize": "1 - 10 Employees",
+    "postedDate": "1 Month",
+    "role": "Associate Engineer",
+    "location": "Remote",
+    "salary": "$69.69 - $169.69",
+    "saved": false,
+    "applied": false,
+    "appliedDate": "Yesterday",
+    "status": "Pending"
+  }
+]

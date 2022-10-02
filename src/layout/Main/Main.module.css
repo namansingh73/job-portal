@@ -1,0 +1,21 @@
+.main {
+  padding: 3vw 2vw;
+  /* min-height: calc(100vh - 8.5rem); */
+  margin-left: 15rem;
+  margin-right: 20rem;
+  margin-top: 12rem;
+  /* z-index: 10; */
+}
+
+.backgroundContainer {
+  background-color: var(--color-grey-light-2);
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+
+  position: fixed;
+  left: 15rem;
+  top: 12rem;
+  width: calc(100% - 15rem - 20rem);
+  height: calc(100vh - 12rem);
+  z-index: -5;
+}
