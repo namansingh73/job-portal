@@ -122,10 +122,6 @@
   clear: both;
 }
 
-.container {
-  /* width: 10rem; */
-  /* min-width: 10rem; */
-}
 .container .half {
   /* width: 50%; */
   float: left;
